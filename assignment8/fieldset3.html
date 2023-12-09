@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+
+<body>
+  <div style="background-color: #240046; text-align: center;">
+    <ul>
+    <li style="list-style: none; display: inline-block; padding: 8px 8px; position: relative;">
+      <a style="color: white; text-decoration: none; font-size: 18px;"  
+    href="../index.html">Main Page</a></li>
+    <li style="list-style: none; display: inline-block; padding: 8px 8px; position: relative;">
+      <a style="color: white; text-decoration: none; font-size: 18px;"  
+    href="fieldset1.html">Fieldset 1</a></li>
+    <li style="list-style: none; display: inline-block; padding: 8px 8px; position: relative;">
+      <a style="color: white; text-decoration: none; font-size: 18px;"  
+    href="fieldset2.html">Fieldset 2</a></li>
+    <li style="list-style: none; display: inline-block; padding: 8px 8px; position: relative;">
+      <a style="color: white; text-decoration: none; font-size: 18px;"  
+    href="fieldset4.html">Fieldset 4</a></li>
+    </ul>
+  </div>
+
+  <form>
+    <fieldset>
+      <legend>
+        Login
+      </legend>
+      <p>Username*<br />
+        <input type="text" , name="username">
+      </p>
+      <p>Password*<br />
+        <input type="Password" , name="Password">
+      </p>
+    </fieldset>
+
+    <fieldset>
+      <legend>
+        Gender*
+      </legend>
+      <table>
+        <tr>
+          <td> <input type="radio" name="Gender" value="Male">Male</td>
+          <td> <input type="radio" name="Gender" value="Female">Female</td>
+        </tr>
+      </table>
+    </fieldset>
+
+    <fieldset>
+      <legend>
+        Programming Skill
+      </legend>
+      <p>
+        <input type="checkbox" , name="Java">
+        Java
+        <input type="checkbox" , name="C++">
+        C++
+        <input type="checkbox" , name="C#">
+        C#
+      </p>
+    </fieldset>
+
+    <fieldset>
+      <legend>Fruit</legend>
+      <p>Choose a Fruit:
+        <select name="Fruit">
+          <option value="Banana">Banana</option>
+          <option value="Apple">Apple</option>
+          <option value="Orange">Orange</option>
+        </select>
+      </p>
+    </fieldset>
+    <textarea name="comments" cols="80" rows="10">
+      Enter your comments here</textarea>
+    <p>
+      <button>
+        SEND
+      </button>
+      <button>
+        RESET
+      </button>
+    </p>
+  </form>
+</body>
+
+</html>
